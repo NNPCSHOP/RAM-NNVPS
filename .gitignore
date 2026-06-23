@@ -1,0 +1,13 @@
+# ===== ปิดทุกอย่างก่อน แล้วเปิดเฉพาะไฟล์ที่ปลอดภัยสำหรับ public repo =====
+# ห้าม source (cs/) , bot/ , สคริปต์ build , secret ใดๆ หลุดขึ้น GitHub เด็ดขาด
+/*
+
+# เปิดเฉพาะไฟล์ที่จำเป็นต่อการแจก/อัปเดตอัตโนมัติ (ไม่มี secret)
+!.gitignore
+!RAM-NNVPS.exe
+!version.json
+!How-To-Use.txt
+!อ่านก่อนติดตั้ง.txt
+!logo.png
+!logo.ico
+!RAM-NNVPS-Setup.zip
