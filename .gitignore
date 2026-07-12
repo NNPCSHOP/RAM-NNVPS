@@ -2,6 +2,14 @@
 # ห้าม source (cs/) , bot/ , สคริปต์ build , secret ใดๆ หลุดขึ้น GitHub เด็ดขาด
 /*
 
+# ===== SECRET: กันเด็ดขาดทุกกรณี (แม้จะเผลอ whitelist ทีหลัง) =====
+_private_update_key.xml
+*_private_update_key.xml
+*.key
+*private*key*
+config.json
+**/config.json
+
 # เปิดเฉพาะไฟล์ที่จำเป็นต่อการแจก/อัปเดตอัตโนมัติ (ไม่มี secret)
 !.gitignore
 !RAM-NNVPS.exe
@@ -11,3 +19,5 @@
 !logo.png
 !logo.ico
 !RAM-NNVPS-Setup.zip
+
+!howto.png
