@@ -19,5 +19,8 @@ config.json
 !logo.png
 !logo.ico
 !RAM-NNVPS-Setup.zip
+!win_unlock.dll
+!LibreHardwareMonitorLib.dll
+!HidSharp.dll
 
 !howto.png
