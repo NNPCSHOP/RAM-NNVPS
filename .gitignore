@@ -24,3 +24,5 @@ config.json
 !HidSharp.dll
 
 !howto.png
+!update-info.json
+!RAM-NNVPS-*.exe
