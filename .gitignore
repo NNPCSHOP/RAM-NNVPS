@@ -25,4 +25,9 @@ config.json
 
 !howto.png
 !update-info.json
-!RAM-NNVPS-*.exe
+
+# ===== เดิม `!RAM-NNVPS-*.exe` กว้างเกินไป: un-ignore ทุกตัวรวม test/build/core/stub
+# ที่ยังไม่ obfuscate → เผลอ `git add .` = source รั่วขึ้น public repo (แก้ 2026-08-15) =====
+# default-deny: ตัว exe ที่ปล่อยจริงคือ RAM-NNVPS.exe (whitelist ไว้บนแล้ว)
+# ถ้าต้อง commit exe เวอร์ชัน (obfuscate แล้วเท่านั้น) ใช้: git add -f RAM-NNVPS-x.y.z.exe
+# exe เวอร์ชันเก่าที่ commit ไปแล้ว (9.1.10/11/12) ยังคง track อยู่ ไม่กระทบ
